@@ -1,1 +1,3 @@
-# ridiculam.github.io
+ok so like
+fuck you
+lolol
