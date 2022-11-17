@@ -4,10 +4,14 @@
 	margin-bottom:4px;
 	border-bottom: solid 1px #ccc;
 	background-color: #efefef;
+	width: 100%;
 }
 body {
 	display:flex;
 	justify-content: space-around;
+	flex-direction: column;
+	align-items:center;
+	margin: 0;
 }
 .gruk {
 	width:70%;
@@ -28,10 +32,15 @@ h1 {
 	justify-content: space-around;
 }
 .NBar > a {
+	transition-duration: .4s;
 	width:100%;
 	text-align: center;
 	border-right: solid 1px #ccc;
 	margin-bottom: 2px;
 	line-height: 3.4em;
 	background-image: linear-gradient(#efefef,#EEEEEF,#E9EBEF, #E3E8EF, #6A6D71);
+}
+.NBar > a:hover {
+	transition-duration: .4s;
+	background-image: linear-gradient(#C9D1D6,#BCC9D1,#B3C2CC, #ABBDC9, #53595E);
 }
